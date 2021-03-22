@@ -82,9 +82,89 @@ section
     background-color: var(--section-color);
 }
 
-.projects
+.linkProject
 {
-    
     text-decoration: none;
+    background-color: var(--primary-color);
+    display: block;
+    max-width: 180px;
+    padding: 0.7rem 0rem;
+    border-radius: 0.5rem 0.5rem;
+    text-align: center;
+    color: var(--off-white);
+    margin: 2rem 1rem;
+    border-bottom: 4px solid var(--section-color);
+    
     
 }
+.container
+{
+    max-width: 520px;
+    margin: auto;
+}
+.blogs
+{
+    max-width: 550px;
+    margin: auto;
+}
+.blogslink
+{
+    text-decoration: none;
+    border: 4px solid var(--primary-color);
+    display: block;
+    max-width: 180px;
+    padding: 0.7rem 0rem;
+    border-radius: 0.5rem 0.5rem;
+    text-align: center;
+    color: var(--primary-color);
+    padding: 1rem 0rem;
+
+}
+a:hover
+{
+    font-weight: bold;
+}
+a:active
+{
+    font-weight:bold;
+}
+.sectionBlogs
+{
+    background-color: var(--section-color);
+    padding: 2rem;
+}
+.footer
+{
+    background-color: var(--primary-color);
+    
+    padding: 4rem 1rem;
+    border-top-right-radius: 2rem;
+}
+.list-item-inline
+{
+    display: inline;
+    text-decoration:none;
+    margin: auto;
+    text-align: center;
+}
+ .footer-header
+ {
+     text-align:center;
+     color:var(--off-white);
+     font-size: large;
+     
+ }
+ .social-links{
+     margin:auto;
+     padding-inline-start:;
+ }
+ .footer ul
+ {
+    
+    padding-inline-start: 0px; 
+ }
+ .align
+ {
+     max-width: 400px;
+     padding-inline-start: 0%;
+ }
