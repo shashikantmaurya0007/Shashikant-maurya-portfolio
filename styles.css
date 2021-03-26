@@ -57,7 +57,7 @@ hr{
 }
 .hero .hero-img
 {
-    max-width: 350px;
+    max-width: 60%;
     display:block;
     margin:auto;
 }
