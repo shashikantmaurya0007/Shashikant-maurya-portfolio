@@ -79,6 +79,10 @@ hr{
     color:var(--dark-gray);
     text-shadow: 2px 2px  4px var(--dark-gray);
 }
+.section-content .h{
+    max-width: 600px;
+    margin: auto;
+}
 .section
 {
     padding:2rem;
