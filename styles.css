@@ -148,3 +148,7 @@ hr{
     font-weight: bold;
     text-shadow: 2px 2px  4px var(--off-white);
 }
+.margi-md
+{
+    margin:2rem;
+}
