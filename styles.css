@@ -116,7 +116,7 @@ img
     text-align: center;
     border-top-right-radius:1.5rem ;
     color: var(--off-white);
-    margin-bottom: 0%;
+    /* margin-bottom: 0%; */
 }
 .footer ul{
     padding-inline-start: 0px;
@@ -163,4 +163,47 @@ img
 .margi-md
 {
     margin:2rem;
+}
+/* projects heading */
+
+.project-div
+{
+    color: var(--dark-gray);
+    font-weight: bold;
+    font-size:xx-large;
+    word-spacing: 1.5rem;
+    letter-spacing: 1.5rem;
+    padding:3.4rem;
+}
+.project-list-heading
+{
+    color: var(--primary-color);
+    display: inline;
+    margin-left:2.5rem;
+}
+.main-div-project
+{
+    padding:1rem;
+    margin-left: 9rem;
+    /* margin:auto; */
+    max-width:70%;
+    border-radius: 3rem;
+    background-color:lightblue;
+    /* border:2px solid black; */
+    display: inline-block;
+    align: center;
+}
+.project-section-section
+{
+    padding: 2rem;
+    
+    
+    
+    
+}
+.project-internal-div
+{
+    padding: 2rem;
+    max-width:50%
+    
 }
