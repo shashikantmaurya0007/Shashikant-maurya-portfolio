@@ -116,6 +116,7 @@ img
     text-align: center;
     border-top-right-radius:1.5rem ;
     color: var(--off-white);
+    margin-bottom: 0%;
 }
 .footer ul{
     padding-inline-start: 0px;
