@@ -10,6 +10,7 @@ body {
     font-family: 'Varela Round', sans-serif;
     margin: 0px;
     box-sizing: border-box;
+    text-align: justify;
 }
 
 .navigation {
