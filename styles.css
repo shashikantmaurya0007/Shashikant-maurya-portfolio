@@ -32,6 +32,7 @@ hr {
     list-style: none;
     padding: 0rem 1rem;
     display: inline;
+    margin-left: -2px;
 }
 
 .navigation .link {
@@ -40,6 +41,7 @@ hr {
 
 .navigation .nav-pills {
     text-align: right;
+    margin-left: 4px;
 }
 
 .navigation .nav-brand {
