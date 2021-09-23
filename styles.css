@@ -1,16 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
 :root {
-    --primary-color: #7C3AED;
-    --off-white: #F3F4F6;
-    --dark-gray: #6B7280;
-    --section-color: #EFF6FF;
+    --primary-color: #7c3aed;
+    --off-white: #f3f4f6;
+    --dark-gray: #6b7280;
+    --section-color: #eff6ff;
 }
 
 body {
-    font-family: 'Varela Round', sans-serif;
+    font-family: "Varela Round", sans-serif;
     margin: 0px;
     box-sizing: border-box;
     text-align: justify;
+}
+
+#heading_blog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 20px;
 }
 
 .navigation {
@@ -206,7 +215,7 @@ section {
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
-    box-shadow: 5px 10px #888888;
+    box-shadow: 2px 3px #888888;
     /* border:2px solid black; */
 }
 
@@ -214,11 +223,12 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .project-internal-div {
     padding: 2rem;
-    max-width: 80%
+    max-width: 80%;
 }
 
 .project-link-padding {
